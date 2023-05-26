@@ -1,0 +1,218 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #2e2b2b;
+}
+
+#header{
+    background-color: grey;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content:space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#appname{
+    color: white;
+    margin-left: 10px;
+}
+
+#sign{
+    padding: 0px;
+    margin: 0px;
+}
+
+#hit{
+    background-color: yellowgreen;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    margin: 0px 10px 0px 0px ;
+}
+
+#homeimage{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("image2/image1.jpg");
+}
+
+#description{
+    color: aliceblue;
+    font-size: 100px;
+}
+
+#subdesc{
+    color: aliceblue;
+}
+
+#secondeimage{
+    width: 100%;
+    height: 450px;
+    margin: 0px;
+    background-image: url("image2/image2.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+#sector1{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#block1{
+    padding: 10px;
+    height: 400px;
+    background-color: yellow;
+    width: 40%;
+}
+#block2{
+    padding: 10px;
+    height: 400px;
+    background-color: yellow;
+    width: 40%;
+}
+
+#image{
+    background-image: url("image2/image3.jpeg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagedes{
+    color: greenyellow;
+}
+
+#imagesubdes{
+    color: white;
+}
+
+#sector2{
+    height: 500px;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+}
+#subsector21{
+    background: url("image2/image5.jpeg");
+    height: 450px;
+    display: flex;
+    width: 40%;
+    margin: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#subsector22{
+    background: url("image2/image4.png");
+    background-size: cover;
+    height: 400px;
+    width: 40%;
+    background-repeat: no-repeat;
+}
+
+#finalimage{
+    background: url("image2/image6.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fin{
+    color: white;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 10px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
